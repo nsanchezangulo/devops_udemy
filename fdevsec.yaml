@@ -17,5 +17,3 @@ scanners:
 
 fail_pipeline:
   risk_rating: <7>
-  
-

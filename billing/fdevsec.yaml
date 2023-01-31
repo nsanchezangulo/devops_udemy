@@ -1,0 +1,21 @@
+version: v1
+
+id:
+  org: 019b1fc3-221c-4e05-b046-aeadfa73b6fd
+  app: 5345d7b2-3e6e-4f86-a6b0-2a0539c43fab
+
+
+# Optional parameters.
+scanners:
+  - sast
+  - dast
+  - secret
+  - sca
+  - iac
+  - container
+
+
+fail_pipeline:
+  risk_rating: <7>
+  
+
